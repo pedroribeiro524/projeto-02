@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Corinthians - Meu Site</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #000;
+      color: #fff;
+    }
+
+    header {
+      background-color: #111;
+      padding: 20px;
+      text-align: center;
+      border-bottom: 3px solid #fff;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+
+    nav {
+      background-color: #222;
+      padding: 10px;
+      text-align: center;
+    }
+
+    nav a {
+      color: #fff;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    .container {
+      padding: 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    .card {
+      background-color: #111;
+      padding: 15px;
+      margin-bottom: 20px;
+      border-left: 5px solid #fff;
+    }
+
+    footer {
+      background-color: #111;
+      text-align: center;
+      padding: 15px;
+      margin-top: 20px;
+      border-top: 3px solid #fff;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Sport Club Corinthians Paulista</h1>
+    <p>O Time do Povo</p>
+  </header>
+
+  <nav>
+    <a href="#">Início</a>
+    <a href="#">História</a>
+    <a href="#">Títulos</a>
+    <a href="#">Contato</a>
+  </nav>
+
+  <div class="container">
+
+    <div class="card">
+      <h2>Sobre o Corinthians</h2>
+      <p>
+        O Corinthians foi fundado em 1910, em São Paulo, e é um dos clubes mais populares do Brasil.
+        Conhecido como "Timão", possui uma das maiores torcidas do mundo.
+      </p>
+    </div>
+
+    <div class="card">
+      <h2>Principais Títulos</h2>
+      <ul>
+        <li>Mundial de Clubes (2000 e 2012)</li>
+        <li>Copa Libertadores (2012)</li>
+        <li>Campeonato Brasileiro (várias vezes)</li>
+        <li>Copa do Brasil</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>Estádio</h2>
+      <p>
+        A Neo Química Arena é a casa do Corinthians, localizada em São Paulo.
+      </p>
+    </div>
+
+  </div>
+
+  <footer>
+    <p>Site simples feito para fãs do Corinthians ⚽</p>
+  </footer>
+
+</body>
+</html>
